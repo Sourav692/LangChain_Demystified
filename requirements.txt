@@ -46,7 +46,7 @@ httpcore==1.0.7
 httptools==0.6.4
 httpx==0.28.1
 httpx-sse==0.4.0
-huggingface-hub==0.29.3
+huggingface-hub>=0.36.0
 humanfriendly==10.0
 idna==3.10
 importlib_metadata==8.6.1
@@ -153,11 +153,12 @@ streamlit-chat==0.1.1
 sympy==1.13.3
 tenacity==9.0.0
 tiktoken==0.9.0
-tokenizers==0.21.1
+tokenizers>=0.21.1
 toml==0.10.2
 tornado==6.4.2
 tqdm==4.67.1
 traitlets==5.14.3
+transformers>=4.47.0
 typer==0.15.2
 typing-inspect==0.9.0
 typing_extensions==4.12.2
@@ -173,6 +174,11 @@ wrapt==1.17.2
 yarl==1.18.3
 zipp==3.21.0
 zstandard==0.23.0
+accelerate==1.1.0
+groq==0.13.0
+torch==2.7.1
+torchvision==0.22.1
+torchaudio==2.7.1
 # -----------------------------------------------------------------------------
 # Windows-specific dependency
 pywin32==310; sys_platform == 'win32'
