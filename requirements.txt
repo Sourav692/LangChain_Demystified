@@ -182,6 +182,8 @@ torchaudio==2.7.1
 langchain-huggingface==0.1.0
 langchain-groq==0.2.0
 langchain_community
+langchain_google_genai
+
 # -----------------------------------------------------------------------------
 # Windows-specific dependency
 pywin32==310; sys_platform == 'win32'
