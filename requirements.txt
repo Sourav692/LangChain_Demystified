@@ -64,15 +64,15 @@ jsonschema-specifications==2024.10.1
 jupyter_client==8.6.3
 jupyter_core==5.7.2
 kubernetes==32.0.1
-langchain==0.3.21
+langchain==0.3.14
 langchain-chroma==0.2.2
-langchain-community==0.3.20
-langchain-core==0.3.48
+langchain-community==0.3.14
+langchain-core==0.3.29
 langchain-google-genai==2.0.6
-langchain-openai==0.3.10
+langchain-openai==0.3.0
 langchain-postgres==0.0.13
-langchain-text-splitters==0.3.7
-langsmith==0.3.18
+langchain-text-splitters==0.3.5
+langsmith==0.2.11
 markdown-it-py==3.0.0
 MarkupSafe==3.0.2
 marshmallow==3.26.1
@@ -181,12 +181,9 @@ torchvision==0.22.1
 torchaudio==2.7.1
 langchain-huggingface==0.1.0
 langchain-groq==0.2.0
-langchain_community
-langchain_google_genai
 wikipedia==1.4.0
 markitdown
-rich==13.9.4
-tqdm==4.67.1
+langgraph==0.2.66
 
 # -----------------------------------------------------------------------------
 # Windows-specific dependency
