@@ -183,6 +183,10 @@ langchain-huggingface==0.1.0
 langchain-groq==0.2.0
 langchain_community
 langchain_google_genai
+wikipedia==1.4.0
+markitdown
+rich==13.9.4
+tqdm==4.67.1
 
 # -----------------------------------------------------------------------------
 # Windows-specific dependency
